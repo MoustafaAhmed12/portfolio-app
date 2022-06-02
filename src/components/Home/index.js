@@ -29,7 +29,7 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m </span>
-            <span> A</span>
+            <span className="a-tag"> A</span>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -47,11 +47,8 @@ const Home = () => {
               strArray={interestArray}
               idx={22}
             />
-
           </h1>
-          <h2>
-            Front End Developer / I Love Coding 
-          </h2>
+          <h2>Front End Developer / I Love Coding</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
@@ -61,7 +58,7 @@ const Home = () => {
 
       <Loader type="pacman" />
     </>
-  )
+  );
 }
 
 export default Home

@@ -14,9 +14,12 @@ const Contact = () => {
   const contactArray = "Contact Me".split("");
 
   useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass("text-animate-hover");
-    }, 3000);
+    function setTime() {
+      return setTimeout(() => {
+        setLetterClass("text-animate-hover");
+      }, 3000);
+    }
+    setTime()
   }, []);
 
   const sendEmail = (e) => {
@@ -54,6 +57,8 @@ const Contact = () => {
             projects. However, if you have other request or question, don't
             hesitate to contact me using below form either.
           </p>
+          
+          <span className="tech-tag" style={{fontSize: '1.8rem'}}>Phone: +20-155-136-7858</span>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>

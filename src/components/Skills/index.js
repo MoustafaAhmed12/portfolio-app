@@ -30,14 +30,14 @@ const Skills = () => {
           </h1>
           <p>
             Expert in front-end development including technologies like
-            <span class="tech-tag"> HTML5</span>,
-            <span class="tech-tag"> CSS3</span>,
-            <span class="tech-tag"> JavaScript</span>,
-            <span class="tech-tag"> jQuery</span>,
-            <span class="tech-tag"> ES6</span>,
-            <span class="tech-tag"> Bootstrap 5</span>,
-            <span class="tech-tag"> Sass</span>,
-            <span class="tech-tag"> Git</span>
+            <span className="tech-tag"> HTML5</span>,
+            <span className="tech-tag"> CSS3</span>,
+            <span className="tech-tag"> JavaScript</span>,
+            <span className="tech-tag"> jQuery</span>,
+            <span className="tech-tag"> ES6</span>,
+            <span className="tech-tag"> Bootstrap 5</span>,
+            <span className="tech-tag"> Sass</span>,
+            <span className="tech-tag"> Git</span>
             , etc.
           </p>
           <p>

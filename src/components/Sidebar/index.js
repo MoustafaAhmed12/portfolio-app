@@ -9,7 +9,7 @@ import {
   faScrewdriverWrench,
   faEye
 } from '@fortawesome/free-solid-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
@@ -57,7 +57,11 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Ahmed2211998"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faGithub} color="#b9b9b9" />
             </a>
           </li>

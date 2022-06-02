@@ -14,6 +14,7 @@ import './index.scss'
 
 const About = () => {
   const aboutArray = 'About Me'.split('')
+  const exArray = 'Experience'.split('')
 
   const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -50,7 +51,13 @@ const About = () => {
             eager to develop myself in the shortest possible time what makes me
             so curious to achieve my career goals.
           </p>
-          <h1>Experience</h1>
+          <h1>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={exArray}
+              idx={15}
+            />
+          </h1>
           <p>
             <div className="tech-tag">
               2021 TO NOW FRONT END -DEVELOPER 6 SIGMA CODE{" "}
